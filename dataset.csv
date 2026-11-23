@@ -1,0 +1,751 @@
+num_statements,num_constants,num_repeated_expr,num_dead_stmts,num_algebraic_ops,num_loop_ops,num_tmp_vars,const_ratio,best_strategy
+30,0,4,0,0,8,16,0.0,CSE
+26,0,0,1,3,12,10,0.0,Algebraic Simplification
+22,4,0,2,0,4,8,0.182,Constant Propagation
+12,0,0,1,3,0,5,0.0,Algebraic Simplification
+18,0,0,0,4,4,8,0.0,Algebraic Simplification
+11,2,0,4,0,0,4,0.182,Dead Code Elimination
+27,0,0,1,4,11,11,0.0,Algebraic Simplification
+11,2,0,3,0,0,3,0.182,Constant Propagation
+27,0,3,0,1,7,14,0.0,CSE
+31,0,1,6,0,11,12,0.0,Dead Code Elimination
+34,7,1,1,0,15,15,0.206,Constant Folding
+18,0,1,0,4,4,8,0.0,Algebraic Simplification
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+31,0,0,5,0,16,9,0.0,Dead Code Elimination
+41,6,0,3,0,21,17,0.146,Constant Propagation
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+16,6,0,2,0,3,7,0.375,Constant Folding
+48,4,0,2,0,24,16,0.083,Constant Propagation
+42,0,0,0,4,24,14,0.0,Algebraic Simplification
+15,0,2,0,0,0,7,0.0,CSE
+46,0,1,1,1,26,19,0.0,Strength Reduction
+27,0,2,1,0,11,11,0.0,Strength Reduction
+13,1,1,2,0,0,5,0.077,Strength Reduction
+33,0,1,0,4,15,15,0.0,Algebraic Simplification
+33,6,1,1,0,16,14,0.182,Constant Folding
+21,0,0,4,0,7,6,0.0,Dead Code Elimination
+45,5,0,3,0,22,16,0.111,Dead Code Elimination
+41,2,0,0,4,19,17,0.049,Constant Folding
+37,4,0,1,2,16,15,0.108,Constant Propagation
+37,4,0,2,0,20,14,0.108,Constant Propagation
+36,0,0,0,5,19,16,0.0,Algebraic Simplification
+43,0,1,1,0,25,17,0.0,Dead Code Elimination
+53,1,1,0,1,28,23,0.019,Strength Reduction
+33,0,0,0,4,13,15,0.0,Algebraic Simplification
+36,2,0,0,5,17,16,0.056,Algebraic Simplification
+30,6,0,2,1,15,12,0.2,Constant Folding
+40,3,0,3,0,22,13,0.075,Constant Propagation
+24,0,2,1,0,6,12,0.0,CSE
+31,8,0,3,0,16,13,0.258,Constant Folding
+18,0,1,1,0,4,8,0.0,Strength Reduction
+36,9,0,3,0,12,17,0.25,Constant Folding
+13,0,1,3,0,0,5,0.0,Dead Code Elimination
+18,8,0,2,0,4,8,0.444,Constant Folding
+26,6,0,3,0,10,11,0.231,Constant Folding
+35,0,0,6,0,16,11,0.0,Dead Code Elimination
+56,1,4,0,0,24,26,0.018,CSE
+48,0,6,0,0,27,24,0.0,CSE
+40,0,1,1,0,22,15,0.0,Strength Reduction
+21,0,1,0,1,5,10,0.0,Strength Reduction
+39,0,2,0,1,20,18,0.0,Strength Reduction
+19,8,0,2,0,4,9,0.421,Constant Folding
+15,0,2,1,0,0,7,0.0,CSE
+41,1,0,1,3,21,16,0.024,Algebraic Simplification
+43,1,2,0,5,21,20,0.023,Algebraic Simplification
+40,0,1,0,0,24,15,0.0,Strength Reduction
+50,10,1,2,0,24,23,0.2,Constant Folding
+15,0,2,0,0,0,7,0.0,CSE
+34,8,0,3,1,15,16,0.235,Constant Folding
+33,0,1,0,0,16,14,0.0,Strength Reduction
+21,8,0,2,0,4,11,0.381,Constant Folding
+18,0,0,1,4,4,8,0.0,Algebraic Simplification
+37,4,0,1,0,13,15,0.108,Constant Propagation
+38,2,0,5,0,17,13,0.053,Constant Folding
+30,1,0,4,0,14,10,0.033,Dead Code Elimination
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+48,5,0,3,0,27,17,0.104,Constant Propagation
+21,0,0,1,4,5,10,0.0,Algebraic Simplification
+53,10,1,2,0,28,24,0.189,Constant Folding
+16,1,1,1,0,0,7,0.062,Dead Code Elimination
+11,2,0,3,0,0,4,0.182,Dead Code Elimination
+9,0,1,2,0,0,3,0.0,Strength Reduction
+41,0,2,1,0,20,19,0.0,Strength Reduction
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+45,0,5,0,0,21,23,0.0,CSE
+22,0,0,3,1,8,7,0.0,Dead Code Elimination
+9,0,0,1,0,0,3,0.0,Strength Reduction
+34,1,0,0,0,18,14,0.029,Strength Reduction
+27,8,0,3,0,11,11,0.296,Constant Folding
+45,5,0,3,0,22,16,0.111,Constant Propagation
+33,0,0,1,5,18,14,0.0,Algebraic Simplification
+27,3,0,3,0,13,9,0.111,Constant Propagation
+21,4,0,3,0,9,7,0.19,Constant Folding
+11,0,0,3,0,0,4,0.0,Dead Code Elimination
+55,0,4,0,0,33,25,0.0,CSE
+11,4,0,3,0,0,5,0.364,Constant Folding
+30,0,0,1,4,15,12,0.0,Algebraic Simplification
+23,0,0,5,0,7,7,0.0,Dead Code Elimination
+36,0,2,1,0,19,16,0.0,Strength Reduction
+9,0,0,3,0,0,3,0.0,Dead Code Elimination
+19,7,0,2,0,4,8,0.368,Constant Folding
+30,0,4,0,0,8,16,0.0,CSE
+13,6,0,3,0,0,6,0.462,Constant Folding
+20,0,1,4,0,2,8,0.0,Dead Code Elimination
+33,0,0,4,0,14,10,0.0,Dead Code Elimination
+25,6,0,3,0,12,10,0.24,Constant Folding
+33,0,1,0,5,16,14,0.0,Algebraic Simplification
+30,0,2,0,0,14,13,0.0,CSE
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+39,12,0,3,0,20,19,0.308,Constant Folding
+18,3,0,2,0,3,6,0.167,Constant Propagation
+32,10,0,3,0,15,15,0.312,Constant Folding
+30,3,0,4,0,13,10,0.1,Dead Code Elimination
+15,6,0,2,0,3,6,0.4,Constant Folding
+32,0,0,3,0,15,10,0.0,Strength Reduction
+11,2,0,3,0,0,3,0.182,Constant Propagation
+21,7,0,2,0,4,10,0.333,Constant Folding
+48,1,4,1,0,26,23,0.021,CSE
+26,0,1,6,0,13,8,0.0,Dead Code Elimination
+45,0,3,0,0,22,22,0.0,Strength Reduction
+14,2,0,2,0,0,5,0.143,Constant Propagation
+14,0,0,4,0,2,5,0.0,Dead Code Elimination
+24,0,3,0,0,6,12,0.0,CSE
+15,3,0,3,0,0,5,0.2,Constant Propagation
+33,0,3,1,0,17,15,0.0,CSE
+9,0,0,1,0,0,3,0.0,Strength Reduction
+56,2,5,0,0,29,28,0.036,CSE
+48,0,5,0,0,27,24,0.0,CSE
+13,1,0,1,2,0,5,0.077,Algebraic Simplification
+11,0,0,4,0,0,4,0.0,Dead Code Elimination
+32,8,0,3,0,17,13,0.25,Constant Folding
+12,2,0,1,0,0,5,0.167,Strength Reduction
+39,8,1,1,0,20,18,0.205,Constant Folding
+38,0,3,1,0,18,18,0.0,CSE
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+16,0,0,4,0,2,6,0.0,Dead Code Elimination
+29,2,1,1,0,11,11,0.069,Constant Propagation
+16,6,0,2,1,0,8,0.375,Constant Folding
+51,1,4,0,0,27,23,0.02,CSE
+13,2,0,1,2,0,6,0.154,Algebraic Simplification
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+38,6,0,3,0,17,15,0.158,Constant Propagation
+23,8,0,2,0,5,12,0.348,Constant Folding
+48,5,0,2,1,23,18,0.104,Constant Propagation
+38,1,0,0,3,20,14,0.026,Algebraic Simplification
+24,0,3,0,0,6,12,0.0,CSE
+30,0,0,0,5,14,13,0.0,Algebraic Simplification
+42,6,0,3,0,21,16,0.143,Constant Propagation
+27,0,0,1,4,13,11,0.0,Algebraic Simplification
+17,6,0,2,0,0,9,0.353,Constant Folding
+19,0,0,3,0,7,5,0.0,Dead Code Elimination
+12,0,2,2,0,0,5,0.0,Strength Reduction
+11,2,0,3,0,0,3,0.182,Constant Propagation
+11,0,0,3,0,0,4,0.0,Dead Code Elimination
+15,0,1,0,0,0,7,0.0,Strength Reduction
+15,3,0,3,0,0,5,0.2,Constant Propagation
+27,0,1,0,0,11,11,0.0,Strength Reduction
+28,8,0,3,0,11,12,0.286,Constant Folding
+9,0,0,1,0,0,3,0.0,Strength Reduction
+16,1,1,4,0,1,5,0.062,Dead Code Elimination
+43,8,0,3,0,24,17,0.186,Constant Folding
+27,0,2,1,0,11,11,0.0,CSE
+11,2,0,3,0,0,3,0.182,Constant Propagation
+15,6,0,3,0,0,7,0.4,Constant Folding
+45,10,0,3,0,24,19,0.222,Constant Folding
+9,0,0,2,0,0,3,0.0,Dead Code Elimination
+40,3,0,3,0,22,13,0.075,Constant Propagation
+30,0,0,1,4,15,12,0.0,Algebraic Simplification
+47,1,3,0,0,21,20,0.021,CSE
+15,3,0,3,0,0,5,0.2,Constant Propagation
+30,0,2,0,0,12,13,0.0,Strength Reduction
+20,8,0,2,0,4,10,0.4,Constant Folding
+30,0,2,1,0,14,13,0.0,Strength Reduction
+9,0,0,1,0,0,3,0.0,Strength Reduction
+13,0,1,3,0,0,5,0.0,Dead Code Elimination
+15,3,0,3,0,0,5,0.2,Constant Propagation
+37,0,0,0,1,18,14,0.0,Strength Reduction
+16,6,0,2,0,3,7,0.375,Constant Folding
+33,0,3,0,0,13,15,0.0,CSE
+32,7,0,2,1,14,14,0.219,Constant Folding
+31,4,0,3,0,11,11,0.129,Constant Propagation
+55,6,0,2,0,29,21,0.109,Constant Propagation
+14,4,0,3,0,0,5,0.286,Constant Propagation
+30,0,0,0,4,15,12,0.0,Algebraic Simplification
+28,0,0,5,0,13,9,0.0,Dead Code Elimination
+22,4,0,2,0,4,8,0.182,Constant Propagation
+31,0,0,0,5,14,12,0.0,Algebraic Simplification
+49,0,4,0,0,26,22,0.0,CSE
+37,0,1,5,1,16,15,0.0,Dead Code Elimination
+13,6,0,3,0,0,6,0.462,Constant Folding
+32,6,0,2,0,16,14,0.188,Constant Folding
+15,0,2,0,0,0,7,0.0,CSE
+16,6,0,2,0,0,8,0.375,Constant Folding
+40,4,1,1,1,17,17,0.1,Constant Propagation
+42,0,5,0,0,16,21,0.0,CSE
+30,0,1,1,4,17,12,0.0,Algebraic Simplification
+42,0,4,0,0,21,20,0.0,CSE
+15,0,1,1,0,3,6,0.0,Strength Reduction
+13,6,0,3,0,0,6,0.462,Constant Folding
+27,0,3,0,1,7,14,0.0,CSE
+27,0,0,0,0,14,10,0.0,Strength Reduction
+27,0,1,0,0,13,11,0.0,Strength Reduction
+27,0,0,0,4,11,11,0.0,Algebraic Simplification
+30,0,0,6,0,13,10,0.0,Dead Code Elimination
+31,8,0,3,0,17,13,0.258,Constant Folding
+33,8,0,3,0,12,14,0.242,Constant Folding
+17,6,0,2,0,3,8,0.353,Constant Folding
+12,0,1,1,0,0,5,0.0,Strength Reduction
+33,0,3,0,0,17,15,0.0,CSE
+24,0,3,0,0,6,12,0.0,CSE
+60,2,5,0,0,29,28,0.033,Constant Folding
+17,0,0,4,1,1,6,0.0,Dead Code Elimination
+15,0,0,0,0,3,6,0.0,Strength Reduction
+11,2,0,3,0,0,3,0.182,Constant Propagation
+11,0,0,3,0,0,4,0.0,Dead Code Elimination
+12,0,1,1,0,0,5,0.0,Strength Reduction
+13,6,0,3,0,0,6,0.462,Constant Folding
+11,0,0,3,0,0,4,0.0,Dead Code Elimination
+21,3,0,1,0,4,8,0.143,Constant Propagation
+31,1,0,1,3,15,12,0.032,Algebraic Simplification
+27,0,3,0,1,7,14,0.0,CSE
+38,11,0,2,1,16,18,0.289,Constant Folding
+11,4,0,3,0,0,5,0.364,Constant Folding
+32,2,2,1,0,12,14,0.062,CSE
+47,1,0,0,1,26,19,0.021,Strength Reduction
+13,6,0,3,0,0,6,0.462,Constant Folding
+15,0,2,0,0,0,7,0.0,CSE
+40,4,1,1,0,17,17,0.1,Constant Propagation
+24,0,0,1,3,12,9,0.0,Algebraic Simplification
+12,0,0,0,2,0,5,0.0,Algebraic Simplification
+34,0,0,5,0,16,11,0.0,Dead Code Elimination
+18,3,0,2,0,3,6,0.167,Constant Propagation
+31,1,2,0,0,12,13,0.032,CSE
+12,0,0,0,3,0,5,0.0,Algebraic Simplification
+33,0,1,4,1,14,13,0.0,Algebraic Simplification
+32,3,0,2,1,11,12,0.094,Constant Propagation
+12,2,0,1,0,0,5,0.167,Strength Reduction
+15,0,1,0,0,3,6,0.0,Strength Reduction
+52,6,0,3,0,28,19,0.115,Constant Propagation
+33,0,1,0,0,16,14,0.0,Strength Reduction
+25,2,0,3,0,9,8,0.08,Constant Propagation
+15,0,1,1,1,0,7,0.0,Strength Reduction
+12,0,0,0,0,0,5,0.0,Strength Reduction
+15,3,0,3,0,0,5,0.2,Constant Propagation
+42,2,0,4,0,22,15,0.048,Dead Code Elimination
+28,2,1,1,3,11,12,0.071,Algebraic Simplification
+18,0,0,0,4,4,8,0.0,Algebraic Simplification
+24,0,3,0,0,6,12,0.0,CSE
+40,0,0,0,5,21,16,0.0,Algebraic Simplification
+14,2,0,2,1,0,5,0.143,Dead Code Elimination
+46,2,4,0,0,26,23,0.043,CSE
+33,0,0,5,0,16,10,0.0,Dead Code Elimination
+16,0,0,4,0,2,6,0.0,Dead Code Elimination
+28,4,1,1,0,6,12,0.143,Constant Propagation
+30,0,1,1,4,12,13,0.0,Algebraic Simplification
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+39,12,0,3,0,21,19,0.308,Constant Folding
+40,0,1,0,3,21,16,0.0,Algebraic Simplification
+36,2,3,0,0,14,17,0.056,CSE
+37,4,0,2,1,17,14,0.108,Constant Propagation
+39,0,0,1,3,18,15,0.0,Algebraic Simplification
+37,0,1,2,4,18,14,0.0,Algebraic Simplification
+46,0,1,0,0,26,19,0.0,Strength Reduction
+36,6,0,3,0,17,13,0.167,Constant Folding
+39,8,0,3,0,20,16,0.205,Constant Folding
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+12,0,0,1,3,0,5,0.0,Algebraic Simplification
+64,0,6,0,0,36,31,0.0,CSE
+37,12,0,3,0,19,17,0.324,Constant Folding
+36,10,0,3,0,16,17,0.278,Constant Folding
+45,0,5,0,0,21,23,0.0,CSE
+27,0,1,1,0,13,11,0.0,Strength Reduction
+29,2,0,5,0,12,10,0.069,Dead Code Elimination
+18,0,1,0,0,4,8,0.0,Strength Reduction
+18,0,0,0,0,4,8,0.0,Strength Reduction
+16,6,0,2,0,3,7,0.375,Dead Code Elimination
+11,4,0,3,0,0,5,0.364,Constant Folding
+13,6,0,3,0,0,6,0.462,Constant Folding
+11,2,0,3,0,0,3,0.182,Constant Propagation
+16,0,0,4,0,2,6,0.0,Dead Code Elimination
+27,0,2,1,0,11,11,0.0,CSE
+57,0,6,0,0,30,30,0.0,CSE
+18,3,0,2,1,0,7,0.167,Constant Propagation
+26,0,0,1,0,12,8,0.0,Strength Reduction
+36,2,3,1,0,18,17,0.056,CSE
+14,4,0,3,0,0,5,0.286,Constant Propagation
+21,0,4,0,0,0,11,0.0,CSE
+21,0,3,0,0,0,11,0.0,CSE
+12,0,0,1,3,0,5,0.0,Algebraic Simplification
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+15,0,0,1,0,3,6,0.0,Strength Reduction
+22,8,0,2,0,4,12,0.364,Constant Folding
+37,2,1,0,0,19,17,0.054,CSE
+12,0,0,0,3,0,5,0.0,Algebraic Simplification
+30,0,4,0,0,8,16,0.0,CSE
+40,0,1,1,5,21,16,0.0,Algebraic Simplification
+12,0,0,1,3,0,5,0.0,Algebraic Simplification
+9,0,1,2,0,0,3,0.0,Strength Reduction
+30,0,0,1,5,14,13,0.0,Algebraic Simplification
+15,0,1,2,3,0,7,0.0,Algebraic Simplification
+15,0,0,0,0,3,6,0.0,Strength Reduction
+10,4,0,3,0,0,4,0.4,Constant Folding
+38,5,0,3,0,20,14,0.132,Constant Propagation
+10,4,0,3,0,0,4,0.4,Constant Folding
+33,4,0,3,0,14,12,0.121,Constant Propagation
+40,3,3,0,0,19,19,0.075,CSE
+16,0,0,5,0,2,6,0.0,Dead Code Elimination
+27,2,0,5,0,12,9,0.074,Dead Code Elimination
+30,0,4,0,0,8,16,0.0,CSE
+16,0,0,4,0,2,6,0.0,Dead Code Elimination
+44,5,0,2,1,22,17,0.114,Constant Propagation
+44,0,1,3,0,22,17,0.0,Strength Reduction
+24,6,0,3,0,10,9,0.25,Constant Folding
+15,0,0,0,0,3,6,0.0,Strength Reduction
+37,0,0,1,4,20,14,0.0,Algebraic Simplification
+40,2,2,0,0,20,19,0.05,Strength Reduction
+12,0,0,1,3,0,5,0.0,Algebraic Simplification
+18,3,0,2,0,3,6,0.167,Constant Propagation
+52,1,5,0,0,28,26,0.019,CSE
+30,0,4,0,0,8,16,0.0,CSE
+19,5,0,3,0,0,8,0.263,Constant Propagation
+32,8,0,3,0,16,14,0.25,Constant Folding
+15,0,1,0,0,3,6,0.0,Strength Reduction
+18,0,0,0,4,4,8,0.0,Algebraic Simplification
+36,10,0,3,0,18,17,0.278,Dead Code Elimination
+21,0,0,4,0,9,6,0.0,Dead Code Elimination
+46,4,0,3,0,19,17,0.087,Constant Propagation
+19,1,0,1,3,4,8,0.053,Algebraic Simplification
+38,5,0,3,0,17,14,0.132,Constant Propagation
+38,8,0,3,0,18,15,0.211,Dead Code Elimination
+9,0,0,2,0,0,3,0.0,Dead Code Elimination
+33,10,0,3,0,15,16,0.303,Constant Folding
+24,3,1,0,0,5,10,0.125,Constant Propagation
+45,0,6,0,0,21,23,0.0,CSE
+12,0,0,1,2,0,5,0.0,Algebraic Simplification
+48,6,0,1,2,23,20,0.125,Constant Propagation
+20,7,0,2,0,4,9,0.35,Constant Folding
+35,0,0,5,0,16,11,0.0,Dead Code Elimination
+33,0,0,0,5,16,14,0.0,Algebraic Simplification
+9,0,0,2,0,0,3,0.0,Dead Code Elimination
+32,2,0,5,0,12,12,0.062,Dead Code Elimination
+12,0,0,0,3,0,5,0.0,Algebraic Simplification
+58,0,5,0,0,34,27,0.0,CSE
+31,10,0,3,0,14,14,0.323,Constant Folding
+38,5,0,3,0,17,14,0.132,Constant Propagation
+42,0,4,0,0,25,20,0.0,CSE
+15,0,0,1,0,3,6,0.0,Strength Reduction
+12,0,0,0,3,0,5,0.0,Algebraic Simplification
+26,0,0,2,3,12,10,0.0,Algebraic Simplification
+15,0,2,0,0,0,7,0.0,CSE
+22,4,0,2,0,4,8,0.182,Dead Code Elimination
+30,0,1,1,0,17,12,0.0,Strength Reduction
+36,0,0,4,1,17,12,0.0,Dead Code Elimination
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+34,1,4,0,0,9,18,0.029,CSE
+21,0,1,0,3,5,10,0.0,Algebraic Simplification
+24,2,3,0,0,0,13,0.083,CSE
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+18,0,0,1,3,4,8,0.0,Algebraic Simplification
+11,4,0,3,0,0,5,0.364,Constant Folding
+37,2,1,0,4,16,18,0.054,Algebraic Simplification
+15,0,0,1,3,3,6,0.0,Dead Code Elimination
+40,3,0,2,0,18,14,0.075,Constant Propagation
+24,0,0,4,0,10,8,0.0,Dead Code Elimination
+12,0,0,4,0,0,4,0.0,Dead Code Elimination
+36,5,0,3,0,17,13,0.139,Constant Folding
+14,6,0,3,0,0,7,0.429,Constant Folding
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+47,3,0,6,0,22,17,0.064,Dead Code Elimination
+31,6,0,1,2,15,14,0.194,Constant Folding
+15,0,1,1,0,3,6,0.0,Strength Reduction
+11,0,0,3,0,0,4,0.0,Dead Code Elimination
+33,0,4,0,1,9,18,0.0,CSE
+18,0,1,0,0,4,8,0.0,Strength Reduction
+18,3,0,2,0,3,6,0.167,Constant Propagation
+15,0,2,0,2,0,7,0.0,CSE
+15,0,0,1,0,3,6,0.0,Strength Reduction
+18,0,1,1,0,4,8,0.0,CSE
+42,2,1,4,0,19,16,0.048,Dead Code Elimination
+13,2,0,3,0,0,4,0.154,Constant Propagation
+26,4,0,2,1,10,11,0.154,Constant Folding
+37,2,3,0,0,18,18,0.054,CSE
+16,0,0,4,0,2,6,0.0,Dead Code Elimination
+11,2,0,3,0,0,3,0.182,Constant Propagation
+28,0,0,5,0,11,9,0.0,Dead Code Elimination
+37,2,1,0,1,16,18,0.054,Strength Reduction
+11,0,1,3,0,0,4,0.0,Strength Reduction
+24,0,0,4,0,11,7,0.0,Dead Code Elimination
+21,0,1,0,1,5,10,0.0,Strength Reduction
+47,2,0,0,4,26,20,0.043,Algebraic Simplification
+21,0,0,1,2,9,7,0.0,Algebraic Simplification
+36,0,0,5,0,20,11,0.0,Dead Code Elimination
+17,3,0,3,0,0,6,0.176,Constant Propagation
+41,1,1,3,0,19,15,0.024,Dead Code Elimination
+22,4,0,2,0,4,8,0.182,Constant Propagation
+21,0,3,0,0,0,11,0.0,CSE
+24,0,0,1,3,10,9,0.0,Algebraic Simplification
+14,6,0,3,0,0,7,0.429,Constant Folding
+18,3,0,2,0,3,6,0.167,Constant Propagation
+52,1,5,0,0,28,26,0.019,CSE
+27,2,0,1,3,11,11,0.074,Algebraic Simplification
+28,1,0,5,0,12,9,0.036,Constant Propagation
+11,4,0,3,0,0,5,0.364,Constant Folding
+15,0,0,1,3,3,6,0.0,Algebraic Simplification
+27,0,0,0,3,14,10,0.0,Algebraic Simplification
+12,4,0,2,1,0,5,0.333,Constant Folding
+21,0,3,1,0,0,11,0.0,Dead Code Elimination
+22,4,0,2,0,4,8,0.182,Dead Code Elimination
+19,8,0,2,0,4,9,0.421,Constant Folding
+33,2,2,1,1,13,15,0.061,Strength Reduction
+42,7,0,3,0,21,16,0.167,Constant Propagation
+15,0,0,1,3,3,6,0.0,Algebraic Simplification
+39,0,5,0,0,15,19,0.0,CSE
+24,0,3,1,0,6,12,0.0,CSE
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+60,0,5,1,0,29,29,0.0,CSE
+25,4,0,1,1,5,10,0.16,Dead Code Elimination
+22,4,0,2,0,4,8,0.182,Constant Propagation
+27,0,3,0,0,7,14,0.0,CSE
+46,0,1,0,6,26,19,0.0,Algebraic Simplification
+18,2,0,0,3,4,8,0.111,Algebraic Simplification
+26,6,0,3,0,12,11,0.231,Constant Folding
+16,1,1,1,0,0,7,0.062,Strength Reduction
+22,4,0,2,0,4,8,0.182,Constant Propagation
+38,0,0,2,5,19,17,0.0,Algebraic Simplification
+24,0,3,0,0,6,12,0.0,CSE
+12,6,0,3,0,0,5,0.5,Constant Folding
+30,0,4,0,0,8,16,0.0,CSE
+37,6,0,2,0,16,15,0.162,Constant Propagation
+15,0,0,0,3,0,7,0.0,Algebraic Simplification
+16,6,0,2,0,3,7,0.375,Constant Folding
+29,0,1,0,0,14,12,0.0,Strength Reduction
+43,1,0,0,6,21,20,0.023,Algebraic Simplification
+12,0,0,0,2,0,5,0.0,Algebraic Simplification
+40,0,0,6,0,20,13,0.0,Dead Code Elimination
+25,1,0,4,0,10,8,0.04,Dead Code Elimination
+38,1,1,5,0,16,15,0.026,Dead Code Elimination
+43,4,0,3,0,18,15,0.093,Constant Propagation
+36,10,0,3,0,17,17,0.278,Constant Folding
+35,0,0,5,0,16,11,0.0,Dead Code Elimination
+23,0,3,1,0,0,12,0.0,CSE
+38,12,0,3,0,19,18,0.316,Constant Folding
+15,4,0,3,0,0,6,0.267,Constant Propagation
+12,0,0,1,3,0,5,0.0,Algebraic Simplification
+24,0,3,0,0,6,12,0.0,CSE
+21,0,3,0,0,0,11,0.0,CSE
+71,0,6,0,0,38,36,0.0,CSE
+24,0,3,0,0,0,13,0.0,CSE
+15,0,1,3,0,0,6,0.0,CSE
+54,2,6,1,0,24,28,0.037,Dead Code Elimination
+15,6,0,2,1,0,7,0.4,Constant Folding
+24,0,0,3,1,8,8,0.0,Algebraic Simplification
+10,4,0,3,0,0,4,0.4,Constant Folding
+30,0,2,0,0,14,13,0.0,Strength Reduction
+55,0,5,0,0,28,26,0.0,CSE
+22,4,0,2,0,4,8,0.182,Constant Propagation
+13,4,0,2,0,0,6,0.308,Constant Folding
+17,6,0,2,0,3,8,0.353,Constant Folding
+19,0,0,4,0,7,5,0.0,Dead Code Elimination
+33,0,0,6,1,14,12,0.0,Dead Code Elimination
+23,6,1,0,0,5,12,0.261,Constant Folding
+21,0,3,1,0,0,11,0.0,CSE
+34,0,0,1,1,17,12,0.0,Strength Reduction
+36,0,0,1,3,19,13,0.0,Algebraic Simplification
+24,0,3,0,0,6,12,0.0,CSE
+33,1,1,2,0,14,14,0.03,Strength Reduction
+40,2,0,4,1,18,15,0.05,Dead Code Elimination
+15,0,0,0,3,3,6,0.0,Algebraic Simplification
+39,5,0,2,0,18,15,0.128,Constant Folding
+9,0,1,2,2,0,3,0.0,Algebraic Simplification
+27,0,1,1,0,13,11,0.0,Strength Reduction
+34,4,0,2,1,12,13,0.118,Constant Propagation
+11,4,0,3,0,0,5,0.364,Constant Folding
+47,2,4,1,0,26,23,0.043,CSE
+15,0,0,1,3,3,6,0.0,Algebraic Simplification
+36,0,2,0,0,19,16,0.0,Strength Reduction
+9,4,0,3,0,0,3,0.444,Constant Folding
+34,1,1,2,5,15,17,0.029,Algebraic Simplification
+38,5,0,2,0,16,15,0.132,Constant Propagation
+9,4,0,3,0,0,3,0.444,Constant Folding
+11,2,0,3,0,0,3,0.182,Constant Propagation
+42,4,0,3,0,26,14,0.095,Constant Propagation
+32,1,0,5,0,14,11,0.031,Dead Code Elimination
+30,0,1,0,5,14,13,0.0,Algebraic Simplification
+43,0,0,0,0,25,17,0.0,Strength Reduction
+36,0,0,0,6,19,16,0.0,Algebraic Simplification
+36,0,3,0,0,16,17,0.0,Strength Reduction
+27,1,0,5,0,10,9,0.037,Dead Code Elimination
+18,3,0,2,0,3,6,0.167,Constant Propagation
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+17,3,0,3,0,0,6,0.176,Constant Propagation
+15,0,2,0,0,0,7,0.0,CSE
+38,5,0,3,0,17,14,0.132,Constant Propagation
+13,1,0,5,0,0,4,0.077,Dead Code Elimination
+17,0,0,5,0,1,6,0.0,Dead Code Elimination
+18,0,2,1,1,0,9,0.0,CSE
+27,2,3,1,0,7,14,0.074,CSE
+30,0,4,0,0,8,16,0.0,CSE
+26,0,0,4,0,13,8,0.0,Dead Code Elimination
+11,0,0,3,0,0,4,0.0,Dead Code Elimination
+17,2,0,5,0,1,6,0.118,Dead Code Elimination
+40,7,0,3,0,21,16,0.175,Constant Folding
+38,0,0,5,0,18,12,0.0,Dead Code Elimination
+26,0,0,1,1,10,10,0.0,Strength Reduction
+24,4,0,3,0,4,9,0.167,Constant Propagation
+36,0,1,0,0,19,16,0.0,Strength Reduction
+15,0,2,0,0,0,7,0.0,CSE
+11,2,0,3,0,0,3,0.182,Constant Propagation
+24,0,1,0,4,6,12,0.0,Algebraic Simplification
+49,6,0,3,0,27,18,0.122,Constant Propagation
+21,0,3,0,0,0,11,0.0,CSE
+30,2,0,2,3,13,13,0.067,Algebraic Simplification
+9,0,0,1,0,0,3,0.0,Strength Reduction
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+15,0,2,0,0,0,7,0.0,CSE
+15,3,0,3,0,0,5,0.2,Constant Propagation
+9,0,0,3,0,0,3,0.0,Dead Code Elimination
+15,0,2,0,0,0,7,0.0,CSE
+25,6,0,3,0,13,12,0.24,Constant Folding
+37,3,0,3,0,17,12,0.081,Constant Propagation
+15,0,3,1,0,0,7,0.0,CSE
+19,0,0,3,0,7,5,0.0,Dead Code Elimination
+38,6,0,3,0,17,13,0.158,Constant Folding
+21,0,1,0,0,5,10,0.0,Strength Reduction
+18,0,1,0,0,4,8,0.0,CSE
+31,8,0,3,0,16,13,0.258,Constant Folding
+13,6,0,3,0,0,6,0.462,Constant Folding
+18,3,0,2,0,0,7,0.167,Constant Propagation
+15,0,1,1,0,3,6,0.0,Strength Reduction
+28,0,0,5,0,13,9,0.0,Dead Code Elimination
+30,3,0,3,0,15,10,0.1,Constant Propagation
+9,0,0,3,0,0,3,0.0,Dead Code Elimination
+42,0,4,0,0,21,20,0.0,CSE
+16,6,0,2,0,3,7,0.375,Constant Folding
+36,0,3,0,0,18,17,0.0,CSE
+25,9,0,2,0,5,13,0.36,Constant Folding
+53,3,1,0,0,28,23,0.057,Strength Reduction
+12,0,0,0,3,0,5,0.0,Algebraic Simplification
+16,2,1,2,3,0,8,0.125,Algebraic Simplification
+36,0,3,1,0,19,16,0.0,CSE
+19,2,2,0,0,0,10,0.105,CSE
+30,0,4,0,0,8,16,0.0,CSE
+13,1,0,1,2,0,5,0.077,Algebraic Simplification
+18,0,0,0,4,4,8,0.0,Algebraic Simplification
+12,0,1,1,0,0,5,0.0,Strength Reduction
+22,4,0,2,0,4,8,0.182,Constant Propagation
+43,0,3,0,0,20,18,0.0,CSE
+13,1,0,4,0,0,4,0.077,Dead Code Elimination
+24,0,0,1,0,12,9,0.0,Strength Reduction
+15,3,0,3,0,0,5,0.2,Constant Propagation
+22,4,0,2,0,4,8,0.182,Constant Propagation
+30,0,4,0,0,8,16,0.0,CSE
+28,0,1,5,0,11,9,0.0,Dead Code Elimination
+48,0,6,0,0,23,24,0.0,CSE
+37,0,0,1,4,18,14,0.0,Algebraic Simplification
+33,0,3,1,0,15,15,0.0,Strength Reduction
+28,1,0,1,3,13,11,0.036,Algebraic Simplification
+18,3,0,2,0,3,6,0.167,Constant Propagation
+32,6,0,3,0,15,13,0.188,Constant Folding
+9,0,0,2,0,0,3,0.0,Dead Code Elimination
+11,2,0,3,0,0,3,0.182,Constant Propagation
+41,0,0,5,0,19,14,0.0,Dead Code Elimination
+36,4,0,3,0,19,13,0.111,Constant Propagation
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+12,0,0,0,0,0,5,0.0,Strength Reduction
+51,10,0,1,1,25,23,0.196,Constant Folding
+25,4,0,1,1,5,10,0.16,Constant Propagation
+54,5,0,1,2,29,21,0.093,Constant Propagation
+29,0,0,1,0,13,12,0.0,Strength Reduction
+35,5,0,3,0,15,13,0.143,Constant Propagation
+12,0,1,1,0,0,5,0.0,CSE
+9,0,0,2,0,0,3,0.0,Dead Code Elimination
+11,2,0,3,0,0,3,0.182,Constant Propagation
+15,0,0,0,0,3,6,0.0,Strength Reduction
+16,1,0,3,0,1,5,0.062,Dead Code Elimination
+37,0,2,0,0,18,14,0.0,CSE
+16,0,0,4,0,2,6,0.0,Dead Code Elimination
+40,3,0,3,0,22,13,0.075,Constant Propagation
+46,0,1,6,0,22,17,0.0,Dead Code Elimination
+39,1,3,1,0,18,18,0.026,CSE
+9,0,0,3,0,0,3,0.0,Dead Code Elimination
+33,0,3,0,0,13,15,0.0,CSE
+21,2,1,1,0,5,10,0.095,Strength Reduction
+31,0,0,4,0,16,9,0.0,Dead Code Elimination
+21,0,3,0,0,0,11,0.0,CSE
+24,0,1,0,4,6,12,0.0,Algebraic Simplification
+46,0,3,0,0,26,19,0.0,CSE
+35,1,0,1,0,17,12,0.029,Strength Reduction
+39,2,1,2,0,20,15,0.051,Strength Reduction
+45,8,0,3,0,23,19,0.178,Constant Folding
+46,4,0,3,0,26,16,0.087,Constant Propagation
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+37,4,0,1,4,19,17,0.108,Algebraic Simplification
+51,7,0,2,0,24,20,0.137,Constant Propagation
+39,0,3,0,0,20,18,0.0,CSE
+34,0,1,1,3,17,12,0.0,Algebraic Simplification
+15,0,0,0,0,3,6,0.0,Strength Reduction
+9,0,0,3,0,0,3,0.0,Dead Code Elimination
+51,0,0,0,6,27,22,0.0,Algebraic Simplification
+9,0,0,2,2,0,3,0.0,Algebraic Simplification
+12,0,0,1,3,0,5,0.0,Algebraic Simplification
+13,1,1,2,0,0,5,0.077,Strength Reduction
+12,0,1,1,1,0,5,0.0,Strength Reduction
+43,4,0,3,0,21,15,0.093,Constant Propagation
+25,0,0,5,0,9,8,0.0,Dead Code Elimination
+36,0,3,0,0,19,16,0.0,CSE
+37,0,1,1,0,20,14,0.0,Strength Reduction
+37,0,0,1,3,18,14,0.0,Algebraic Simplification
+30,0,4,0,0,8,16,0.0,CSE
+35,0,0,2,2,16,12,0.0,Algebraic Simplification
+31,0,0,4,0,16,9,0.0,Dead Code Elimination
+16,0,0,5,0,2,6,0.0,Dead Code Elimination
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+16,0,0,4,0,2,6,0.0,Dead Code Elimination
+15,0,2,0,0,0,7,0.0,CSE
+43,0,3,0,0,24,18,0.0,CSE
+23,6,0,3,0,13,9,0.261,Constant Folding
+39,4,0,2,1,17,15,0.103,Constant Propagation
+11,2,0,3,0,0,3,0.182,Constant Propagation
+30,0,4,0,0,8,16,0.0,CSE
+25,8,1,1,0,6,13,0.32,Constant Folding
+24,0,3,0,0,0,13,0.0,CSE
+22,4,0,2,0,4,8,0.182,Constant Propagation
+11,0,1,3,0,0,4,0.0,CSE
+11,0,0,3,0,0,4,0.0,Dead Code Elimination
+32,2,0,4,1,15,12,0.062,Dead Code Elimination
+29,8,0,3,0,14,13,0.276,Constant Folding
+42,0,4,0,0,25,20,0.0,CSE
+37,4,0,2,1,20,14,0.108,Constant Propagation
+47,2,3,0,0,26,23,0.043,CSE
+43,0,0,0,0,25,17,0.0,Strength Reduction
+21,0,3,1,0,0,11,0.0,CSE
+17,2,0,5,0,1,6,0.118,Dead Code Elimination
+31,4,0,3,0,14,11,0.129,Constant Propagation
+17,0,1,1,0,3,7,0.0,Strength Reduction
+12,0,0,0,0,0,5,0.0,Strength Reduction
+16,0,0,4,0,2,6,0.0,Dead Code Elimination
+27,3,0,3,0,10,9,0.111,Constant Propagation
+9,4,0,3,0,0,3,0.444,Constant Folding
+14,0,0,3,0,2,5,0.0,Dead Code Elimination
+37,0,2,0,0,18,14,0.0,CSE
+21,0,4,0,0,0,11,0.0,CSE
+42,12,0,3,0,19,20,0.286,Constant Folding
+45,0,6,0,0,21,23,0.0,CSE
+15,0,1,1,1,0,7,0.0,Strength Reduction
+24,0,3,0,0,6,12,0.0,CSE
+20,8,0,2,0,4,10,0.4,Constant Folding
+14,6,0,3,0,0,7,0.429,Constant Folding
+35,3,0,3,0,17,13,0.086,Constant Propagation
+17,2,1,1,0,0,7,0.118,Constant Propagation
+9,4,0,3,0,0,3,0.444,Constant Folding
+14,0,0,4,0,2,5,0.0,Dead Code Elimination
+23,2,0,3,0,9,7,0.087,Dead Code Elimination
+36,0,2,1,0,19,16,0.0,Strength Reduction
+16,1,1,1,0,0,7,0.062,Strength Reduction
+19,1,0,1,3,4,8,0.053,Algebraic Simplification
+13,1,0,1,0,0,5,0.077,Strength Reduction
+18,0,1,0,0,4,8,0.0,Strength Reduction
+54,0,6,0,0,29,28,0.0,CSE
+37,0,1,0,0,18,14,0.0,Strength Reduction
+18,3,0,2,0,3,6,0.167,Constant Propagation
+41,8,0,3,0,22,16,0.195,Constant Folding
+37,0,0,1,0,21,13,0.0,Strength Reduction
+11,0,0,3,0,0,4,0.0,Dead Code Elimination
+15,3,0,3,0,0,5,0.2,Constant Propagation
+31,3,0,5,0,9,12,0.097,Dead Code Elimination
+30,0,4,0,0,8,16,0.0,CSE
+36,6,0,3,0,19,13,0.167,Constant Folding
+13,6,0,3,0,0,6,0.462,Constant Folding
+18,3,0,2,0,3,6,0.167,Constant Propagation
+20,6,0,1,0,4,10,0.3,Constant Folding
+33,0,1,0,0,16,14,0.0,Strength Reduction
+12,0,1,1,0,0,5,0.0,Strength Reduction
+34,4,0,3,0,16,12,0.118,Constant Propagation
+42,6,0,3,0,21,16,0.143,Constant Propagation
+9,4,0,3,0,0,3,0.444,Constant Folding
+49,0,0,1,6,27,21,0.0,Algebraic Simplification
+15,0,0,0,3,3,6,0.0,Algebraic Simplification
+9,0,0,2,2,0,3,0.0,Algebraic Simplification
+39,4,1,0,0,18,18,0.103,Strength Reduction
+40,0,1,1,0,24,15,0.0,Strength Reduction
+45,0,1,4,1,23,17,0.0,CSE
+21,2,0,0,4,5,10,0.095,Algebraic Simplification
+34,4,0,3,0,19,12,0.118,Constant Propagation
+22,4,0,2,0,4,8,0.182,Constant Propagation
+32,0,4,1,0,8,17,0.0,CSE
+18,2,1,1,0,4,8,0.111,Dead Code Elimination
+32,0,1,1,0,15,11,0.0,Strength Reduction
+33,10,0,3,0,14,16,0.303,Constant Folding
+50,0,4,0,0,32,22,0.0,CSE
+18,0,1,0,0,4,8,0.0,Strength Reduction
+14,6,0,3,0,0,7,0.429,Constant Folding
+28,0,0,6,0,13,9,0.0,Dead Code Elimination
+15,0,2,0,0,0,7,0.0,CSE
+37,8,1,1,1,14,18,0.216,Constant Folding
+44,5,0,2,1,22,18,0.114,Constant Propagation
+14,6,0,3,0,0,7,0.429,Constant Folding
+30,0,4,0,0,8,16,0.0,CSE
+12,0,1,1,0,0,5,0.0,Strength Reduction
+40,0,0,0,0,24,15,0.0,Strength Reduction
+46,0,0,0,6,26,19,0.0,Algebraic Simplification
+52,8,1,1,0,29,24,0.154,Constant Folding
+32,2,0,1,3,14,13,0.062,Algebraic Simplification
+42,0,4,0,0,21,20,0.0,CSE
+32,0,0,1,4,17,13,0.0,Algebraic Simplification
+34,4,0,3,0,19,12,0.118,Dead Code Elimination
+20,6,0,1,0,4,10,0.3,Constant Folding
+36,0,1,0,4,17,16,0.0,Algebraic Simplification
+36,0,3,0,0,19,16,0.0,CSE
+15,0,1,0,0,0,7,0.0,Strength Reduction
+9,0,0,1,2,0,3,0.0,Algebraic Simplification
+11,2,0,3,0,0,3,0.182,Constant Propagation
+25,1,0,4,0,10,8,0.04,Dead Code Elimination
+11,0,0,3,0,0,4,0.0,Dead Code Elimination
+24,0,1,1,0,10,9,0.0,Strength Reduction
+33,1,0,4,0,15,12,0.03,Dead Code Elimination
+27,0,3,0,0,7,14,0.0,CSE
+31,4,0,3,0,11,11,0.129,Constant Propagation
+55,0,4,0,0,33,25,0.0,CSE
+33,0,4,0,0,17,15,0.0,CSE
+13,0,1,2,0,0,5,0.0,CSE
+31,4,0,3,0,14,11,0.129,Constant Propagation
+46,1,1,4,0,21,17,0.022,Dead Code Elimination
+34,1,0,0,0,16,14,0.029,Strength Reduction
+11,1,0,3,0,0,3,0.091,Constant Propagation
+19,2,2,1,0,0,10,0.105,CSE
+10,4,0,3,0,0,4,0.4,Constant Folding
+47,2,1,0,1,23,19,0.043,Strength Reduction
+15,0,2,1,0,0,7,0.0,CSE
+12,0,0,1,3,0,5,0.0,Algebraic Simplification
+20,8,0,2,0,4,10,0.4,Constant Folding
+24,0,0,1,3,10,9,0.0,Algebraic Simplification
+31,1,1,1,1,12,13,0.032,Strength Reduction
+21,3,0,2,1,4,8,0.143,Constant Propagation
+14,0,0,1,3,0,6,0.0,Algebraic Simplification
+37,4,1,1,0,16,15,0.108,Constant Propagation
+15,0,1,0,1,0,7,0.0,Strength Reduction
+12,0,1,1,0,0,5,0.0,Strength Reduction
+31,0,2,1,0,16,13,0.0,Strength Reduction
+49,0,1,0,5,27,21,0.0,Algebraic Simplification
+12,0,0,1,3,0,5,0.0,Algebraic Simplification
+11,1,0,4,0,0,3,0.091,Dead Code Elimination
+18,3,0,2,0,3,6,0.167,Constant Propagation
+11,0,0,4,0,0,4,0.0,Dead Code Elimination
+24,6,0,3,0,12,9,0.25,Constant Folding
+40,0,1,0,5,21,16,0.0,Algebraic Simplification
+28,4,0,2,0,10,12,0.143,Constant Folding
+30,0,3,2,0,14,13,0.0,Strength Reduction
+36,0,0,2,3,19,13,0.0,Algebraic Simplification
+27,3,0,3,0,13,9,0.111,Constant Propagation
+30,0,1,0,0,14,13,0.0,Strength Reduction
+42,10,0,3,0,21,17,0.238,Constant Folding
+58,0,5,0,0,34,27,0.0,CSE
+10,4,0,3,0,0,4,0.4,Constant Folding
+27,0,0,5,1,12,9,0.0,Dead Code Elimination
+39,8,0,3,0,20,15,0.205,Constant Folding
+33,10,0,3,0,16,14,0.303,Constant Folding
+9,0,0,2,2,0,3,0.0,Algebraic Simplification
+15,0,0,1,0,3,6,0.0,Strength Reduction
+23,6,0,3,0,10,11,0.261,Constant Folding
