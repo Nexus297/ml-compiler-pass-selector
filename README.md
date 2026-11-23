@@ -2,7 +2,7 @@
 
 A Mini-C to Three Address Code (TAC) compiler pipeline that replaces fixed pass orderings (`-O2`) with a lightweight Random Forest strategy selector, Smart Fallback orchestrator, and semantic equivalence verifier.
 
-**Live Demo:** [Open Streamlit App](https://<your-subdomain>.streamlit.app)
+**Live Demo:** [Open Streamlit App](https://ml-compiler-optimizer.streamlit.app/)
 
 ## Architecture & Pipeline
 1. **Frontend (`compiler_frontend.py`):** Regex lexer and precedence-climbing recursive-descent parser lowering Mini-C (`while`, `if-else`, arithmetic/relational ops) to TAC.
